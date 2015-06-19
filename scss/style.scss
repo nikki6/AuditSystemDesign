@@ -37,8 +37,8 @@ body{
     box-shadow: 0px 5px 20px $ddTeal;
     padding-top: 50px;
     img{
-        //margin-left: 5%;
-        margin-right:-50px;
+        margin-left: -10%;
+        margin-right:-80px;
         text-align: left;
         transform: scale(.75);
         //For Cursive Version
@@ -132,11 +132,12 @@ body{
 
 tr th{
     border: solid $lSky 4px;
-    font-size: 27px;
+    font-size: 25px;
     color: $cloud;
     padding:5px;
     background-image: url(../img/fabric_plaidBlue.png);
     text-align: center;
+    word-wrap: break-word;
 }
 table{
     box-shadow: 5px 5px 50px $ddTeal;
