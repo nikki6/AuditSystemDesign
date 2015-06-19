@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Oranienbaum-Regular';
+  src: url("../fonts/Oran/Oranienbaum-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Oran/Oranienbaum-Regular.woff") format("woff"), url("../fonts/Oran/Oranienbaum-Regular.ttf") format("truetype"), url("../fonts/Oran/Oranienbaum-Regular.svg#Oranienbaum-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-color: #13587C;
+  font-family: "Oranienbaum-Regular";
+  color: #12373C; }
+
+.header {
+  background-color: rgba(231, 76, 60, 0.5);
+  background-image: url(../img/fabric_plaidRed.png);
+  background-repeat: repeat;
+  background-position: top;
+  box-shadow: 0px 5px 20px #12373C;
+  padding-top: 50px; }
+  .header img {
+    margin-right: -50px;
+    text-align: left;
+    transform: scale(0.75); }
+  .header p {
+    color: #13587C;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: -70px;
+    font-size: 30px;
+    color: #13587C; }
+
+.querySec {
+  color: #13587C; }
+  .querySec h2 {
+    font-size: 200%; }
+  .querySec p {
+    color: #13587C;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #13587C; }
+
+.navbar-brand {
+  padding-top: 30px;
+  font-size: 200%; }
+
+.downloads2 {
+  color: #13587C;
+  text-align: right;
+  font-size: 150%;
+  padding-right: 30px;
+  padding-top: 30px; }
+  .downloads2 img {
+    vertical-align: middle;
+    padding-left: 5px;
+    width: 60px; }
+
+.downloads3 {
+  color: #13587C;
+  font-size: 150%; }
+  .downloads3 img {
+    vertical-align: middle;
+    padding-left: 5px;
+    width: 40px; }
+
+tr th {
+  border: solid #ACBFC6 4px;
+  font-size: 27px;
+  color: #ecf0f1;
+  padding: 5px;
+  background-image: url(../img/fabric_plaidBlue.png);
+  text-align: center; }
+
+table {
+  box-shadow: 5px 5px 50px #12373C;
+  margin-top: 40px;
+  table-layout: fixed;
+  color: #12373C; }
+  table tr td {
+    padding: 10px;
+    border-left: solid #ACBFC6 4px;
+    border-bottom: solid #ACBFC6 4px;
+    background-color: #ecf0f1;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: #13587C; }
+  table tr td:last-child {
+    border-right: solid #ACBFC6 4px; }
+
+.footer {
+  background-color: #fec92e;
+  color: #13587C;
+  margin-top: 50px; }
+  .footer ul {
+    text-align: right; }
+  .footer li {
+    list-style-type: none; }
+
+/*# sourceMappingURL=style.css.map */

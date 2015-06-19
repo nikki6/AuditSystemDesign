@@ -1,0 +1,181 @@
+@import 'oranien';
+//@import url(http://fonts.googleapis.com/css?family=Stalemate);
+
+$textColor : #34495e;
+$dataColor : #2c3e50;
+$tableBkgrdColor: #ecf0f1;
+$red : rgba(192, 57, 43,1.0);
+$fontType: 'Oranienbaum-Regular';
+
+//New Color Pallet Based on the goldenOverlookingSea.jpeg from Unsplash
+$dTeal : #0F4044;
+$gRod : #FEC92E;
+$dSky : #13587C;
+$mSky : #5F93B3;
+$lSky : #ACBFC6;
+$cloud : #ecf0f1;
+$ddTeal : #12373C;
+$lTeal : #3F6766;
+$lGolRod : #EFC75F;
+//The patterns that are used in this web page are from SubtlePatterns.com
+
+body{
+    
+    background-color: $dSky;
+    font-family:$fontType;
+    color: $ddTeal;
+   
+}
+
+
+
+.header{
+    background-color: rgba(231, 76, 60,.5); 
+    background-image: url(../img/fabric_plaidRed.png);
+    background-repeat: repeat;
+    background-position: top;
+    box-shadow: 0px 5px 20px $ddTeal;
+    padding-top: 50px;
+    img{
+        //margin-left: 5%;
+        margin-right:-50px;
+        text-align: left;
+        transform: scale(.75);
+        //For Cursive Version
+        //        transform: scale(.89);
+    }
+
+    p{
+        color:$dSky;
+        text-align: center;
+        //padding-left: 60px;
+        padding-bottom: 30px;
+        margin-top: -70px;
+        font-size: 30px;
+        color: $dSky;
+        
+    }
+}
+
+
+//.for{
+//    margin-left: 0%;
+//    margin-top: -115px;
+//    margin-bottom: 20px;
+//    text-align: center;
+//    transform: scale(.30);
+//}
+
+
+
+
+.querySec{
+    color: $dSky;
+    //padding-left: 50px;
+    //background-color: rgba(236, 240, 241,.8);
+    h2{
+        font-size: 200%;
+    }
+    p{
+        color:$dSky;
+        text-align: center;
+        //padding-left: 60px;
+        //padding-bottom: 30px;
+        margin-top: 0px;
+        font-size: 30px;
+        color: $dSky;
+        
+    }
+}
+
+.navbar-brand{
+    padding-top: 30px;
+    font-size: 200%
+}
+
+//.downloads{
+//    margin-left: 35%;
+//    margin-top: 20px;
+//    font-size: 150%;
+//    p{
+//        color:$gRod;
+//    }
+//    img {
+//        vertical-align: middle;
+//        padding-left: 5px;
+//        width:40px;
+//    }
+//}
+
+.downloads2{
+    color:$dSky;
+    text-align: right;
+    font-size: 150%;
+    padding-right: 30px;
+    padding-top: 30px;
+    img {
+        vertical-align: middle;
+        padding-left: 5px;
+        width:60px;
+    }
+}
+
+.downloads3{
+    color:$dSky;
+    font-size: 150%;
+    img {
+        vertical-align: middle;
+        padding-left: 5px;
+        width:40px;
+    }
+}
+
+tr th{
+    border: solid $lSky 4px;
+    font-size: 27px;
+    color: $cloud;
+    padding:5px;
+    background-image: url(../img/fabric_plaidBlue.png);
+    text-align: center;
+}
+table{
+    box-shadow: 5px 5px 50px $ddTeal;
+    margin-top: 40px;
+    table-layout: fixed;
+    color: $ddTeal;
+    tr{
+        td{
+            padding: 10px;
+            border-left: solid $lSky 4px;
+            border-bottom: solid $lSky 4px;
+            background-color: $cloud;
+            text-align: center;
+            word-wrap: break-word;
+            font-size: 20px;
+            color: $dSky;
+        }
+        td:last-child{
+            border-right: solid $lSky 4px;
+        }
+    }
+}
+
+
+
+thead{
+//    display: block;
+//    position: fixed;
+    
+}
+
+.footer{
+    background-color: #fec92e;
+    color: #13587C;
+    margin-top: 50px;
+    ul{
+        text-align: right;
+    }
+    li{
+        list-style-type: none;
+    }
+}
